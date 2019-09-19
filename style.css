@@ -1,7 +1,7 @@
 /*This is my separate styles sheet*/
 
 head
-  .fixed-nav-bar {
+  #fixed-nav-bar {
   position: fixed;
   top: 0;
   left: 0;
@@ -10,8 +10,11 @@ head
   height: 50px;
   background-color: #4633FF;
 }
+
+
+
   body
-  .backgroundimgpage 
+  #backgroundimgpage 
 	{	background-image: url("https://backgrounddownload.com/wp-content/uploads/2018/09/black-wood-background-hd.jpg");
   		background-color: #C0C0C0;}
 
@@ -20,20 +23,20 @@ head
         padding: 20px;
         margin: 20px;
     }
-    .textColor {
+    #textColor {
         color: #17202A;
         background-color: white;
     }
-    .borderColor {
+    #borderColor {
         border-width: 8px;
         border-style: solid;
         border-color: #33FFF3;
     }
-    .backgroundColor {
+    #backgroundColor {
         background-color: #C0C0C0;
         color: white;
     }
-    .backgroundGradient {
+    #backgroundGradient {
         background: linear-gradient(to bottom, black, green);
         color: white;
     }
