@@ -11,33 +11,35 @@ head
   background-color: #4633FF;
 }
 
+body
+  .backgroundimgpage {
+  background-image: url('https://backgrounddownload.com/wp-content/uploads/2018/09/black-wood-background-hd.jpg');
+  background-color: #C0C0C0;
+  padding-left: 11em;
+  padding-right: 20em;
+  font-family: Georgia, Times New Roman, serif; 
+  color: red;
+  }
 
-
-  body
-  .backgroundimgpage 
-	{	background-image: url("https://backgrounddownload.com/wp-content/uploads/2018/09/black-wood-background-hd.jpg");
-  		background-color: #C0C0C0;}
-
-
-    body p {
-        padding: 20px;
-        margin: 20px;
+p,body {
+  padding: 20px;
+  margin: 20px;
     }
-    .textColor {
-        color: #17202A;
-        background-color: white;
+  .textColor{
+    color: #17202A;
+    background-color: white;
     }
-    .borderColor {
-        border-width: 10px;
-        border-style: solid;
-        border-color: #33FFF3;
+  .borderColor {
+    border-width: 10px;
+    border-style: solid;
+    border-color: #33FFF3;
     }
-    .backgroundColor {
-        background-color: #C0C0C0;
-        color: black;
+  .backgroundColor {
+    background-color: #C0C0C0;
+    color: black;
     }
-    .backgroundGradient {
-        background: linear-gradient(to bottom, black, green);
-        color: black;
+  .backgroundGradient {
+    background: linear-gradient(to bottom, black, green);
+    color: black;
     }
 
