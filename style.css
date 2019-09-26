@@ -1,6 +1,8 @@
 /*This is my separate styles sheet*/
 
-head
+head {
+  text-transform: cursive;
+}
   .fixed-nav-bar {
   position: fixed;
   top: 0;
@@ -12,11 +14,13 @@ head
 }
 
 .header {
-  font-family: Algerian;
+  font-family: sans-serif;
   color: maroon;
 }
 
-body
+body {
+  font-family: Comic Sans MS;
+}
   .backgroundimgpage {
   background-image: url('https://backgrounddownload.com/wp-content/uploads/2018/09/black-wood-background-hd.jpg');
   background-color: #C0C0C0;
