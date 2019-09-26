@@ -11,6 +11,11 @@ head
   background-color: #4633FF;
 }
 
+.header {
+  font-family: Algerian;
+  color: maroon;
+}
+
 body
   .backgroundimgpage {
   background-image: url('https://backgrounddownload.com/wp-content/uploads/2018/09/black-wood-background-hd.jpg');
