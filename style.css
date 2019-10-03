@@ -8,8 +8,8 @@ head {
     color: maroon;
   }
   
-  ol ul {
-    list-style: ltr;
+  ol,ul {
+    list-style: none ltr;
   }
 
   #mainMenu {
