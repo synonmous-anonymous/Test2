@@ -8,7 +8,7 @@ head {
     color: maroon;
   }
   
-  .ol,.ul {
+  ol,ul {
     list-style: none;
   }
 
@@ -18,7 +18,7 @@ head {
     font-family: sans-serif;
   }
 
-  #mainMenu li{
+  #mainMenu li {
     display: block;
     width: 120px;
     float: left;
@@ -26,7 +26,7 @@ head {
     border: 1px solid #000;
   }
 
-  #mainMenu a{
+  #mainMenu a {
     display: block;
     padding: 3px;
     text-decoration: none;
@@ -48,7 +48,7 @@ head {
 }
 
 body {
-  background-image: url('https://backgrounddownload.com/wp-content/uploads/2018/09/black-wood-background-hd.jpg');
+  background-image: url('https://3.bp.blogspot.com/-nyIW6-eJptU/XFu8UlSiyiI/AAAAAAAAFKo/k6L3mjdaGiwn14FPcTA8PpTHPN6lYVY3ACHMYCw/s1600/black-background-wood-%25E2%259D%25A4-4k-hd-desktop-wallpaper-for-4k-ultra-hd.jpg');
   background-attachment: scroll;
   background-color: #C0C0C0;
   padding-left: 11em;
@@ -69,7 +69,7 @@ p {
   .border-color {
     border-style: solid;
     border-width: 10px;
-    border-color: #33FFF3;
+    border-color: #369e98;
     }
   .background-color {
     background-color: #C0C0C0;
@@ -77,7 +77,7 @@ p {
     }
   .background-gradient {
     background: linear-gradient(to bottom right, black, green);
-    color: black;
+    color: white;
   }
 }
 
