@@ -4,23 +4,44 @@ head {
   text-transform: cursive;
   }
   .header {
-  font-family: sans-serif;
-  color: maroon;
- }
-  .fixed-nav-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 50px;
-  background-color: #4633FF;
- }
+    font-family: sans-serif;
+    color: maroon;
+  }
+  
+  .ol,.ul {
+    list-style: none;
+  }
 
- .border-nav {
-  border-style: solid;
-  border-width: 10px;
-  border-height: 10px;
+  #mainMenu {
+    margin: 10px;
+    width: 900px;
+    font-family: sans-serif;
+  }
+
+  #mainMenu li{
+    display: block;
+    width: 120px;
+    float: left;
+    margin-left: 2px;
+    border: 1px solid #000;
+  }
+
+  #mainMenu a{
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #009;
+  }
+
+  #mainMenu a:hover {
+    background-color: #009;
+    color: #fff;
+  }
+
+  #mainMenu {
+    background-color: #5F9EA0;
+  }
 }
 
  
@@ -28,8 +49,8 @@ head {
 
 body {
   background-image: url('https://backgrounddownload.com/wp-content/uploads/2018/09/black-wood-background-hd.jpg');
-  background-color: #C0C0C0;
   background-attachment: scroll;
+  background-color: #C0C0C0;
   padding-left: 11em;
   padding-right: 20em;
   font-family: Georgia, Times New Roman, serif; 
@@ -37,10 +58,10 @@ body {
 }
 
 p {
-  padding: 20px;
-  margin: 20px;
-  border-style: solid;
-    }
+    padding: 20px;
+    margin: 20px;
+    border-style: solid;
+  }
   .text-color{
     color: #17202A;
     background-color: white;
@@ -55,7 +76,8 @@ p {
     color: black;
     }
   .background-gradient {
-    background: linear-gradient(to bottom, black, green);
+    background: linear-gradient(to bottom right, black, green);
     color: black;
+  }
 }
 
