@@ -3,7 +3,7 @@
 head {
   text-transform: cursive;
   }
-  .header {
+  #header {
     font-family: sans-serif;
     color: maroon;
   }
@@ -62,20 +62,20 @@ p {
     margin: 20px;
     border-style: solid;
   }
-  .text-color{
+  #text-color{
     color: #17202A;
     background-color: white;
     }
-  .border-color {
+  #border-color {
     border-style: solid;
     border-width: 10px;
     border-color: #369e98;
     }
-  .background-color {
+  #background-color {
     background-color: #C0C0C0;
     color: black;
     }
-  .background-gradient {
+  #background-gradient {
     background: linear-gradient(to bottom right, black, green);
     color: white;
   }
