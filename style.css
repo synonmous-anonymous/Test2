@@ -9,7 +9,7 @@ head {
   }
   
   ol,ul {
-    list-style: none ltr;
+    list-style: none;
   }
 
   #mainMenu {
@@ -50,31 +50,34 @@ head {
 body {
   background-image: url('https://3.bp.blogspot.com/-nyIW6-eJptU/XFu8UlSiyiI/AAAAAAAAFKo/k6L3mjdaGiwn14FPcTA8PpTHPN6lYVY3ACHMYCw/s1600/black-background-wood-%25E2%259D%25A4-4k-hd-desktop-wallpaper-for-4k-ultra-hd.jpg');
   background-attachment: scroll;
-  background-color: #C0C0C0;
-  padding-left: 11em;
-  padding-right: 20em;
-  font-family: Georgia, Times New Roman, serif; 
+  background-color: white;
+  padding-left: 10em;
+  padding-right: 10em;
+  font-family: serif; 
   color: white;
 }
 
 p { 
-    padding: 20px;
-    margin: 20px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #369e98;
-  }
-  #text-color{
-    color: #17202A;
-    background-color: white;
-    }
-  #background-color {
-    background-color: #C0C0C0;
-    color: black;
-    }
-  #background-gradient {
-    background: linear-gradient(to bottom right, black, green);
-    color: white;
-  }
+  padding: 20px;
+  margin: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #369e98;
 }
+
+#text-color{
+  color: #17202A;
+  background-color: white;
+}
+
+#background-color {
+  background-color: #C0C0C0;
+  color: black;
+}
+  
+#background-gradient {
+  background: linear-gradient(to bottom, black, green);
+  color: white;
+}
+
 
