@@ -48,11 +48,11 @@ head {
 }
 
 body {
-  background-image: url('https://3.bp.blogspot.com/-nyIW6-eJptU/XFu8UlSiyiI/AAAAAAAAFKo/k6L3mjdaGiwn14FPcTA8PpTHPN6lYVY3ACHMYCw/s1600/black-background-wood-%25E2%259D%25A4-4k-hd-desktop-wallpaper-for-4k-ultra-hd.jpg');
+  background-image: url("https://i.pinimg.com/originals/9d/d8/c9/9dd8c92970680cbc6fb7064651703c49.jpg");
   background-attachment: scroll;
   background-color: white;
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: serif; 
   color: white;
 }
