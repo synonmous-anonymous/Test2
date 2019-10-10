@@ -9,33 +9,37 @@ text-transform: cursive;
   color: maroon;
 }
 
-
-#mainMenu {
+nav {
+  width: 100vw;
   margin: 10px;
-  width: 900px;
   font-family: sans-serif;
+  background-color: #D6EFFF;
 }
 
-#mainMenu li {
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
   list-style-type: none;
-  display: block;
   width: 120px;
   float: left;
-  margin-left: 2px;
+  margin: 0 2vw;
+  font-size: 3vh;
   border: 4px solid #000;
 }
 
-#mainMenu a {
-  display: block;
-  padding: 7px;
+a {
   text-decoration: none;
-  background-color: #fff;
+  padding: 2vw;
   color: #009;
+  font-family: monospace;
 }
 
-#mainMenu a:hover {
+a:hover{
   background-color: #009;
-  color: #fff;
 }
 
 #mainMenu {
@@ -43,6 +47,7 @@ text-transform: cursive;
 }
 
 body {
+  margin: 0;
   background-image: url("https://i.pinimg.com/originals/9d/d8/c9/9dd8c92970680cbc6fb7064651703c49.jpg");
   background-attachment: scroll;
 }
