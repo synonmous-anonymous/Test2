@@ -8,8 +8,12 @@ text-transform: cursive;
   font-family: sans-serif;
   color: maroon;
 }
+
+ul {
+  list-style: none;
+}
   
-ol,ul {
+ol {
   list-style: none;
 }
 
