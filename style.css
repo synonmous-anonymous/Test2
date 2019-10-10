@@ -9,13 +9,6 @@ text-transform: cursive;
   color: maroon;
 }
 
-ul {
-  list-style: none;
-}
-  
-ol {
-  list-style: none;
-}
 
 #mainMenu {
   margin: 10px;
@@ -24,6 +17,7 @@ ol {
 }
 
 #mainMenu li {
+  list-style-type: none;
   display: block;
   width: 120px;
   float: left;
