@@ -14,6 +14,7 @@ nav {
   margin: 10px;
   font-family: sans-serif;
   background-color: white;
+  background-attachment: scroll;
 }
 
 ul {
@@ -40,7 +41,7 @@ a {
 
 a:hover{
   background-color: white;
-  color: blue;
+  color: gray;
 }
 
 #mainMenu {
@@ -60,6 +61,6 @@ p {
   border-style: solid;
   border-width: 10px;
   border-color: #369e98;
-  background: linear-gradient(to bottom, black, green);
+  background: linear-gradient(to bottom, white, red);
   color: white;
 }
