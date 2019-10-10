@@ -24,11 +24,11 @@ ul {
 
 li {
   list-style-type: none;
-  width: 120px;
+  width: 130px;
   float: left;
   margin: 0 2vw;
   font-size: 3vh;
-  border: 4px solid #000;
+  border: 7px solid #76E3DF;
 }
 
 a {
@@ -60,6 +60,6 @@ p {
   border-style: solid;
   border-width: 10px;
   border-color: #369e98;
-  background: linear-gradient(to bottom, white, red);
+  background: linear-gradient(to bottom, white, yellow);
   color: white;
 }
