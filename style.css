@@ -60,6 +60,6 @@ p {
   border-style: solid;
   border-width: 10px;
   border-color: #369e98;
-  background: linear-gradient(to bottom, white, yellow);
+  background: linear-gradient(to bottom, white, blue);
   color: white;
 }
