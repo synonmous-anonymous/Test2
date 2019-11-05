@@ -1,5 +1,4 @@
 function sayhello() {
 	var username=prompt("What's your name?");
-	alert("hello "+ username);
-	console.log (username)
+	alert("hello "+username);
 }
