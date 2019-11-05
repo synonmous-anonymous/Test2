@@ -17,17 +17,18 @@ function o() {
     }
 }
 
-function giveayear(){
+function giveayear() {
     var year = prompt("Give me a year and I weill give you a Century");
     var Century = year/100 + 1;
-    console.log (Century)
+    console.log (Century);
     prompt("that year is the" + Math.floor (Century) + "Century");
 }
 
 function triangle() {
     var x = prompt("Enter an angle belonging to a triangle(Just the number)");
     var y = prompt("Enter the other angle of that same triangle(Just the number)");
-    alert(100 - x - y + = = + "degree is the 3rd angle of the triangle");
+    var z = 180 - (x + y);
+    alert( z + " degree is the 3rd angle of the triangle");
 }
 
 function test3() {

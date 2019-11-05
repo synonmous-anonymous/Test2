@@ -12,7 +12,7 @@ text-transform: cursive;
 nav {
   width: 100vw;
   font-family: sans-serif;
-  background-color: white;
+  background-color: black;
   background-attachment: scroll;
 }
 
@@ -39,7 +39,7 @@ a {
 }
 
 a:hover{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.822);
   color: gray;
 }
 
