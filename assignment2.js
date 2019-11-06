@@ -1,6 +1,5 @@
 
 
-
 function counting() {
     var x = 1;
     while (x <= 100)
